@@ -1,0 +1,126 @@
+# =========================================================
+# GENERAL
+# =========================================================
+*.log
+*.tmp
+*.temp
+*.cache
+
+# =========================================================
+# ENVIRONMENT VARIABLES
+# =========================================================
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# PYTHON
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Pyright
+.pyright/
+
+# Coverage
+.coverage
+htmlcov/
+
+# =========================================================
+# AI DATA
+# =========================================================
+checkpoints/
+
+datasets/
+data/raw/
+data/cache/
+
+# Models
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pickle
+*.pkl
+
+# Experiment Tracking
+mlruns/
+wandb/
+
+# =========================================================
+# DATABASES
+# =========================================================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================================================
+# DOCKER / CLOUD
+# =========================================================
+docker-compose.override.yml
+
+.azure/
+.aws/
+.gcp/
+
+# =========================================================
+# IDEs
+# =========================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+# =========================================================
+# OS FILES
+# =========================================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+
+# =========================================================
+# KEEP TRACKED
+# =========================================================
+!.gitignore
